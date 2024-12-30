@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_01 SOLID Design Principle", "Section_01 SOLID Design Principle", "{26F074D3-98FA-4976-9614-73C377310B70}"
 EndProject
@@ -14,6 +14,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "SOLID\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{E96FB3E5-6F7C-4BE0-AB7D-008696F798CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "SOLID\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{C5760948-BF8E-4288-A71A-8096824FD66E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_02 BUILDER", "Section_02 BUILDER", "{C93F5E91-B620-49ED-A42D-5124B5C35BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder01Demo", "Builder\Builder01Demo\Builder01Demo.csproj", "{D4D232E9-567B-4B9E-A584-BE010ADB1650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritanceRecursiveGenerics", "Builder\BuilderInheritanceRecursiveGenerics\BuilderInheritanceRecursiveGenerics.csproj", "{3239808D-C252-469D-9FE7-24BDD694BF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderStepwise", "Builder\BuilderStepwise\BuilderStepwise.csproj", "{B6E8BBE3-AE33-4D4A-839E-573B7160170C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,18 @@ Global
 		{C5760948-BF8E-4288-A71A-8096824FD66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5760948-BF8E-4288-A71A-8096824FD66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5760948-BF8E-4288-A71A-8096824FD66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D232E9-567B-4B9E-A584-BE010ADB1650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D232E9-567B-4B9E-A584-BE010ADB1650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D232E9-567B-4B9E-A584-BE010ADB1650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D232E9-567B-4B9E-A584-BE010ADB1650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3239808D-C252-469D-9FE7-24BDD694BF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3239808D-C252-469D-9FE7-24BDD694BF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3239808D-C252-469D-9FE7-24BDD694BF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3239808D-C252-469D-9FE7-24BDD694BF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E8BBE3-AE33-4D4A-839E-573B7160170C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E8BBE3-AE33-4D4A-839E-573B7160170C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E8BBE3-AE33-4D4A-839E-573B7160170C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E8BBE3-AE33-4D4A-839E-573B7160170C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +71,8 @@ Global
 		{AEE8660F-2F51-40B3-BD42-691410E84958} = {26F074D3-98FA-4976-9614-73C377310B70}
 		{E96FB3E5-6F7C-4BE0-AB7D-008696F798CF} = {26F074D3-98FA-4976-9614-73C377310B70}
 		{C5760948-BF8E-4288-A71A-8096824FD66E} = {26F074D3-98FA-4976-9614-73C377310B70}
+		{D4D232E9-567B-4B9E-A584-BE010ADB1650} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
+		{3239808D-C252-469D-9FE7-24BDD694BF2D} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
+		{B6E8BBE3-AE33-4D4A-839E-573B7160170C} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
 	EndGlobalSection
 EndGlobal
