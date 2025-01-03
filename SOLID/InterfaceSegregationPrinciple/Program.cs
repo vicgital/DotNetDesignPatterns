@@ -116,4 +116,16 @@ namespace InterfaceSegregationPrinciple
             scanner.Scan(d);
         }
     }
+
+    public static class Program
+    {
+        public static void Main(string[] args)
+        {
+
+        }
+    }
+
+
+
+
 }
