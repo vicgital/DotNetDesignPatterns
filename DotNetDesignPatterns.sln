@@ -16,6 +16,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "SOLID\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{C5760948-BF8E-4288-A71A-8096824FD66E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_02 BUILDER", "Section_02 BUILDER", "{C93F5E91-B620-49ED-A42D-5124B5C35BF6}"
+	ProjectSection(SolutionItems) = preProject
+		Builder\README.md = Builder\README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder01Demo", "Builder\Builder01Demo\Builder01Demo.csproj", "{D4D232E9-567B-4B9E-A584-BE010ADB1650}"
 EndProject
@@ -26,6 +29,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderFunctional", "Builder\BuilderFunctional\BuilderFunctional.csproj", "{C43A34D2-E1DA-4135-AC57-570BF4C4FB9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderFaceted", "Builder\BuilderFaceted\BuilderFaceted.csproj", "{61EA0BBA-FF7F-4A05-B377-8A7643A20A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_03 Factory", "Section_03 Factory", "{154C5971-BEB1-4631-A25A-ED074BF29A89}"
+	ProjectSection(SolutionItems) = preProject
+		Factory\README.md = Factory\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDemo01", "Factory\FactoryDemo01\FactoryDemo01.csproj", "{0FF68CC3-C030-4A36-A262-DD28B71EB88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTrackingAndBulkReplacement", "Factory\ObjectTrackingAndBulkReplacement\ObjectTrackingAndBulkReplacement.csproj", "{803CD624-AAFC-4A34-9F95-C3BFBACB1103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Factory\AbstractFactory\AbstractFactory.csproj", "{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +87,18 @@ Global
 		{61EA0BBA-FF7F-4A05-B377-8A7643A20A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61EA0BBA-FF7F-4A05-B377-8A7643A20A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61EA0BBA-FF7F-4A05-B377-8A7643A20A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF68CC3-C030-4A36-A262-DD28B71EB88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF68CC3-C030-4A36-A262-DD28B71EB88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF68CC3-C030-4A36-A262-DD28B71EB88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF68CC3-C030-4A36-A262-DD28B71EB88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803CD624-AAFC-4A34-9F95-C3BFBACB1103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803CD624-AAFC-4A34-9F95-C3BFBACB1103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803CD624-AAFC-4A34-9F95-C3BFBACB1103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803CD624-AAFC-4A34-9F95-C3BFBACB1103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +114,8 @@ Global
 		{B6E8BBE3-AE33-4D4A-839E-573B7160170C} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
 		{C43A34D2-E1DA-4135-AC57-570BF4C4FB9A} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
 		{61EA0BBA-FF7F-4A05-B377-8A7643A20A39} = {C93F5E91-B620-49ED-A42D-5124B5C35BF6}
+		{0FF68CC3-C030-4A36-A262-DD28B71EB88A} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
+		{803CD624-AAFC-4A34-9F95-C3BFBACB1103} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
+		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
 	EndGlobalSection
 EndGlobal
