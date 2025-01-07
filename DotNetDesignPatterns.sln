@@ -41,6 +41,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTrackingAndBulkReplac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Factory\AbstractFactory\AbstractFactory.csproj", "{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_04 Prototype", "Section_04 Prototype", "{D78F698D-CAA6-4304-A6C0-C56DCDD4309F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{2946529B-8044-433E-8D0E-9158804EE532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeSerialization", "Prototype\PrototypeSerialization\PrototypeSerialization.csproj", "{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +105,14 @@ Global
 		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2946529B-8044-433E-8D0E-9158804EE532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2946529B-8044-433E-8D0E-9158804EE532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2946529B-8044-433E-8D0E-9158804EE532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2946529B-8044-433E-8D0E-9158804EE532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +131,7 @@ Global
 		{0FF68CC3-C030-4A36-A262-DD28B71EB88A} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
 		{803CD624-AAFC-4A34-9F95-C3BFBACB1103} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
 		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
+		{2946529B-8044-433E-8D0E-9158804EE532} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
+		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
 	EndGlobalSection
 EndGlobal
