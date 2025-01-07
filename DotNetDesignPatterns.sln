@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeSerialization", "Prototype\PrototypeSerialization\PrototypeSerialization.csproj", "{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_05 Singleton", "Section_05 Singleton", "{37AC98D4-5DFE-4C89-8442-2D65F0BB8CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDemo", "Singleton\SingletonDemo\SingletonDemo.csproj", "{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,10 @@ Global
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,5 +141,6 @@ Global
 		{DF4E4DEF-4AE7-4E6C-BCE5-847902026300} = {154C5971-BEB1-4631-A25A-ED074BF29A89}
 		{2946529B-8044-433E-8D0E-9158804EE532} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
+		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD} = {37AC98D4-5DFE-4C89-8442-2D65F0BB8CD0}
 	EndGlobalSection
 EndGlobal
