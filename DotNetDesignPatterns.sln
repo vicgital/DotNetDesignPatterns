@@ -42,14 +42,27 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Factory\AbstractFactory\AbstractFactory.csproj", "{DF4E4DEF-4AE7-4E6C-BCE5-847902026300}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_04 Prototype", "Section_04 Prototype", "{D78F698D-CAA6-4304-A6C0-C56DCDD4309F}"
+	ProjectSection(SolutionItems) = preProject
+		Prototype\README.md = Prototype\README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{2946529B-8044-433E-8D0E-9158804EE532}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeSerialization", "Prototype\PrototypeSerialization\PrototypeSerialization.csproj", "{24F0AB0C-27F2-4901-A0BE-E025B3F7840D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_05 Singleton", "Section_05 Singleton", "{37AC98D4-5DFE-4C89-8442-2D65F0BB8CD0}"
+	ProjectSection(SolutionItems) = preProject
+		Singleton\REDAME.md = Singleton\REDAME.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDemo", "Singleton\SingletonDemo\SingletonDemo.csproj", "{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_07 Bridge", "Section_07 Bridge", "{60B0C338-D92A-4C9F-AA68-59B891658194}"
+	ProjectSection(SolutionItems) = preProject
+		Bridge\README.md = Bridge\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternDemo", "Bridge\BridgePatternDemo\BridgePatternDemo.csproj", "{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +134,10 @@ Global
 		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,5 +159,6 @@ Global
 		{2946529B-8044-433E-8D0E-9158804EE532} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
 		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD} = {37AC98D4-5DFE-4C89-8442-2D65F0BB8CD0}
+		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1} = {60B0C338-D92A-4C9F-AA68-59B891658194}
 	EndGlobalSection
 EndGlobal
