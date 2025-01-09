@@ -64,6 +64,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_07 Bridge", "Sectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternDemo", "Bridge\BridgePatternDemo\BridgePatternDemo.csproj", "{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_06 Adapter", "Section_06 Adapter", "{D5E13456-4DFA-46C6-B206-D52AAF374BDD}"
+	ProjectSection(SolutionItems) = preProject
+		Adapter\README.md = Adapter\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDemo01", "Adapter\AdapterDemo01\AdapterDemo01.csproj", "{06831F65-C2DC-41D5-9059-0B40E9B35D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,6 +145,10 @@ Global
 		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06831F65-C2DC-41D5-9059-0B40E9B35D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06831F65-C2DC-41D5-9059-0B40E9B35D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06831F65-C2DC-41D5-9059-0B40E9B35D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06831F65-C2DC-41D5-9059-0B40E9B35D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,5 +171,6 @@ Global
 		{24F0AB0C-27F2-4901-A0BE-E025B3F7840D} = {D78F698D-CAA6-4304-A6C0-C56DCDD4309F}
 		{18D0D4E6-05E4-4567-AA1A-B70ED629C8BD} = {37AC98D4-5DFE-4C89-8442-2D65F0BB8CD0}
 		{6548FD40-1C98-4C1D-9472-4CA8A249F3E1} = {60B0C338-D92A-4C9F-AA68-59B891658194}
+		{06831F65-C2DC-41D5-9059-0B40E9B35D9A} = {D5E13456-4DFA-46C6-B206-D52AAF374BDD}
 	EndGlobalSection
 EndGlobal
