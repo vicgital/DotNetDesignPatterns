@@ -128,6 +128,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDemo01", "Command\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDemo02", "Command\CommandDemo02\CommandDemo02.csproj", "{017D0603-89A3-4611-99B7-0FE34AF90898}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section_15 Interpreter", "Section_15 Interpreter", "{A0523494-6B8D-4394-B3A1-434A381AFC32}"
+	ProjectSection(SolutionItems) = preProject
+		Interpreter\README.md = Interpreter\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterDemo01", "Interpreter\InterpreterDemo01\InterpreterDemo01.csproj", "{A4612F95-B741-4AB1-AC0A-3857F55F4341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -250,6 +257,10 @@ Global
 		{017D0603-89A3-4611-99B7-0FE34AF90898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{017D0603-89A3-4611-99B7-0FE34AF90898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{017D0603-89A3-4611-99B7-0FE34AF90898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4612F95-B741-4AB1-AC0A-3857F55F4341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4612F95-B741-4AB1-AC0A-3857F55F4341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4612F95-B741-4AB1-AC0A-3857F55F4341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4612F95-B741-4AB1-AC0A-3857F55F4341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,5 +295,6 @@ Global
 		{B34E6707-BA25-4F2D-948E-99B96DBA3ABD} = {09089DC4-C135-45AC-ADA9-BC64BAA8396D}
 		{A44743D1-20AF-4A21-8F70-4E8F05211599} = {A4186BD3-DDCC-4869-B692-6CB38FAC86FA}
 		{017D0603-89A3-4611-99B7-0FE34AF90898} = {A4186BD3-DDCC-4869-B692-6CB38FAC86FA}
+		{A4612F95-B741-4AB1-AC0A-3857F55F4341} = {A0523494-6B8D-4394-B3A1-434A381AFC32}
 	EndGlobalSection
 EndGlobal
